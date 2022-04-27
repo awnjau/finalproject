@@ -1,0 +1,161 @@
+body{
+  background-color: black;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+h1{
+  text-align: left;
+}
+.overlay {
+  position: absolute;
+  top: -25px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10%;
+  transition: .5s ease;
+
+}
+
+.div-1a:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 300%;
+
+}
+.overlay2 {
+  position: absolute;
+  top: -20px;
+  bottom: 0;
+  left: 40px;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10%;
+  transition: .5s ease;
+
+}
+
+.div-1b:hover .overlay2 {
+  opacity: 1;
+}
+
+.text2 {
+  color: white;
+  font-size: 300%;
+
+}
+.overlay3 {
+  position: absolute;
+  top: -30px;
+  bottom: 0;
+  left: 50px;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10%;
+  transition: .5s ease;
+
+}
+
+.div-1c:hover .overlay3 {
+  opacity: 1;
+}
+
+.text3 {
+  color: white;
+  font-size: 300%;
+
+}
+.overlay4 {
+  position: absolute;
+  top: -35px;
+  bottom: 0;
+  left: 175px;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10%;
+  transition: .5s ease;
+
+}
+
+.div-1d:hover .overlay4 {
+  opacity: 1;
+}
+
+.text4 {
+  color: white;
+  font-size: 300%;
+  text-align: center;
+  position: relative;
+  bottom: 40%;
+  right:10%;
+}
+.main{
+  display: flex;
+  background-image: url("finalwebdev_background.png");
+  align-items:center;
+  justify-content: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width:100%;
+  height:900px;
+}
+.div-1{
+  display: flex;
+  justify-content: flex-end;
+}
+.div-1a{
+  font-size:100%;
+  text-align:center;
+  position:relative;
+  right: 330px;
+  bottom: 310px;
+  color:white;
+}
+.div-1b{
+  font-size:100%;
+  text-align:center;
+  position:relative;
+  right: 380px;
+  bottom: 175px;
+  color:white;
+}
+.div-1c{
+  font-size:100%;
+  text-align:center;
+  position:relative;
+  right: 430px;
+  top: 80px;
+  color:white;
+}
+.div-1d{
+  font-size:100%;
+  text-align:center;
+  position:relative;
+  right: 490px;
+  top: 220px;
+  color:white;
+}
+.main2{
+  background-color: black;
+  color:white;
+  display:flex;
+  justify-content: flex-start;
+  align-items:left;
+}
+
+.div-3{
+  display:flex;
+  justify-content:space-around;
+}
