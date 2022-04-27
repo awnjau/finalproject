@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
   background-color: black;
 }
@@ -92,7 +93,6 @@ h1{
 .div-1d:hover .overlay4 {
   opacity: 1;
 }
-
 .text4 {
   color: white;
   font-size: 300%;
@@ -100,6 +100,60 @@ h1{
   position: relative;
   bottom: 40%;
   right:10%;
+}
+@keyframes glitch{
+  2%,64%{
+    transform: translate(5px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-5px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg);
+  }
+}
+
+div:before,
+div:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+div:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(5px,-5px);
+  }
+  4%,60%{
+    transform: translate(-5px,5px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg);
+  }
+}
+
+div:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-5px,0);
+  }
+  4%,60%{
+    transform: translate(-5px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg);
+  }
 }
 .main{
   display: flex;
@@ -151,11 +205,99 @@ h1{
   background-color: black;
   color:white;
   display:flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items:left;
+  font-family: 'Poppins', sans-serif;
+
+}
+.main2a{
+  position: relative;
+  width:100%;
+  left: 5vh;
+  right: 0;
+  top: 35vh;
+  bottom: 0;
+  font-size: 140%;
+}
+.div-2{
+  font-size: 80%;
+  position: relative;
+  width:100%;
+  left: -1vh;
+  right: 0;
+  top: -2vh;
+  bottom: 0;
+
+
 }
 
 .div-3{
   display:flex;
   justify-content:space-around;
+  align-items: center;
+}
+.div-4{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-position: center center;
+  font-family: 'Poppins', sans-serif;
+  width:100%;
+  height:auto;
+}
+.div-4a{
+  animation: glitch 1s linear infinite;
+  font-size:500%;
+  position: relative;
+  left: -10vh;
+  right: 0;
+  top: -10vh;
+  bottom: 0;
+  color:white;
+}
+.div-4b{
+  animation: glitch 1s linear infinite;
+  font-size:400%;
+  position: relative;
+  left: 40vh;
+  right: 0;
+  top: 30vh;
+  bottom: 0;
+  color:white;
+}
+.div-4c{
+  animation: glitch 1s linear infinite;
+  font-size:300%;
+  position: relative;
+  left: -20vh;
+  right: 0;
+  top: 40vh;
+  bottom: 0;
+  color:white;
+}
+.div-5{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-position: center center;
+  position: relative;
+  left: 0vh;
+  right: 0;
+  top: 33vh;
+  bottom: 0;
+  width:100%;
+  height:auto;
+}
+
+
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100vh;
+  bottom: 0;
+  z-index: -1;
 }
