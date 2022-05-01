@@ -218,7 +218,7 @@ div:after{
 
 .main{
   display: flex;
-  background-image: url("finalwebdev_background.png");
+  background-image: url("background.png");
   align-items:center;
   justify-content: center;
   background-position: center center;
@@ -371,20 +371,26 @@ div:after{
   flex-flow: row;
   flex-wrap: wrap;
   justify-content:space-around;
-  align-items:center;
+  align-items:left;
   position:relative;
   left: 0vh;
   right: 0;
   top: -20vh;
   bottom: 0;
+  font-size: 300%;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  text-align: right;
+  text-decoration-line:underline;
+  padding-top:30px;
 }
 .main3b1{
-  display:flex;
-  font-size: 200%;
+  padding-left: 5px;
   position:relative;
+  font-size: 300%;
   left: 0vh;
   right: 0;
-  top: -20vh;
+  top: -30vh;
   bottom: 0;
   color:white;
   font-family: 'Poppins', sans-serif;
