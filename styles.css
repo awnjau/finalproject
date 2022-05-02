@@ -2,14 +2,26 @@
 body{
   background-color: black;
 }
+h1{
+  text-align: left;
+}
 a:visited {
   color: white;
 }
 a:hover {
   color: white;
 }
-h1{
-  text-align: left;
+a[data-fancybox] img {
+  cursor: zoom-in;
+}
+.fancybox__caption {
+  text-align: center;
+  color:white;
+  font-size: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 40%;
+  right:10%;
 }
 .overlay {
   position: absolute;
@@ -365,22 +377,22 @@ div:after{
   position:relative;
   left: 0vh;
   right: 0;
-  top: -70vh;
+  top: -75vh;
   bottom: 0;
 }
 .main3b{
   display:flex;
   flex-flow: row;
   flex-wrap: wrap;
-  justify-content:space-around;
-  align-items:left;
+  justify-content:center;
+  align-items:center;
   position:relative;
   left: 0vh;
   right: 0;
-  top: -30vh;
+  top: -40vh;
   bottom: 0;
   font-size: 300%;
-  color:white;
+  color:black;
   font-family: 'Poppins', sans-serif;
   text-align: right;
   text-decoration-line:underline;
@@ -388,32 +400,64 @@ div:after{
   padding-bottom: 30px;
 }
 .main3b1{
-  
-  padding-left: 5px;
+
+  display:flex;
+  align-items: center;
+  text-align: left;
   position:relative;
-  font-size: 300%;
-  left: 0vh;
+  font-size: 120%;
+  left: 7vh;
   right: 0;
-  top: -35vh;
+  top: -85vh;
   bottom: 0;
   color:white;
   font-family: 'Poppins', sans-serif;
+  padding-left: 5px;
+  padding-right: 50px;
+  width:30%;
+}
+.main3b2{
+  position:relative;
+  left: -15vh;
+  right: 0;
+  top: -78vh;
+  bottom: 0;
+  width:35%;
+  color:black;
+  font-size:90%;
+}
+.main3c1{
+  position:relative;
+  left: 0vh;
+  right: 0;
+  top: 20vh;
+  bottom: 0;
+}
+.main3c2{
+  animation: glitch 1s linear infinite;
+  position:relative;
+  left: 0vh;
+  right: 0;
+  top: 30vh;
+  bottom: 0;
+  font-size:350%;
+  width:50%;
+  text-align: right;
+
 }
 .main3c{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  text-align: center;
   color:white;
-  font-size: 200%;
-  text-align:left;
   font-family: 'Poppins', sans-serif;
-  display: flex;
-  flex-flow: row;
-  justify-content:space-around;
-  align-items:right;
+  padding-bottom: 1px;
   position:relative;
   left: 0vh;
   right: 0;
-  top: 10vh;
+  top: -280vh;
   bottom: 0;
-
 }
 .main3d{
   color:white;
@@ -423,10 +467,12 @@ div:after{
   position:relative;
   left: 0vh;
   right: 0;
-  top: -90vh;
+  top: -75vh;
   bottom: 0;
   background-image: url("static.gif");
   background-position:center center;
+  padding-top: 50px;
+  padding-bottom:50px;
 }
 .main4{
   background-color: black;
@@ -539,12 +585,18 @@ div:after{
   color: white;
   font-family: 'Poppins', sans-serif;
   text-align: center
+
 }
 .main5a{
   font-size: 150%;
   color: white;
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: -5vh;
+  bottom: 0;
 }
 .main6{
   display:flex;
@@ -567,12 +619,11 @@ div:after{
   position: relative;
   left: 60vh;
   right: 0;
-  top: -15vh;
+  top: -53vh;
   bottom: 0;
   width:30%;
 }
 .main8{
-
   background-position: center center;
   display:flex;
   align-items: left;
@@ -615,7 +666,16 @@ color: pink;
   top: -5vh;
   bottom: 0;
 }
-
+.main9{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 12vh;
+  bottom: 0;
+}
 
 
 #myVideo {
