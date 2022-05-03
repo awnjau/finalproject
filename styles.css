@@ -387,7 +387,7 @@ div:after{
   position: relative;
   left: 0;
   right: 0;
-  top: -20vh;
+  top: 5vh;
   bottom: 0;
   width:100%;
 }
@@ -414,10 +414,10 @@ width:100%;
   position:relative;
   left: 40vh;
   right: 0;
-  top: -60vh;
+  top: -90vh;
   bottom: 0;
   width:35%;
-  font-size:200%;
+  font-size:250%;
   text-align:right;
   text-decoration: underline;
 }
