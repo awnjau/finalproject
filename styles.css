@@ -579,11 +579,11 @@ div:after{
   width:100%;
   height:auto;
   position: relative;
-  left: 5vh;
+  left: 2vh;
   top: 10vh;
 }
 .main4e{
-  padding-left:5px;
+  padding-left:50px;
   color:pink;
   position: relative;
   left: -15vh;
