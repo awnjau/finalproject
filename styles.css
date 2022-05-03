@@ -360,18 +360,12 @@ div:after{
   height:auto;
 }
 .main3{
-  background: black;
+  background:black;
   display: flex;
   justify-content: center;
   align-items: left;
-}
-
-
-#munlight {
-  width:160%;
-  object-fit: cover;
-  display:flex;
-  align-items: center;
+  width:100%;
+  object-fit:contain;
 }
 
 .main3a{
@@ -386,23 +380,46 @@ div:after{
   bottom: 0;
 }
 .main3b{
+  background-color: black;
   display:flex;
-  flex-flow: row;
-  flex-wrap: wrap;
   justify-content:center;
-  align-items:center;
-  position:relative;
-  left: 0vh;
+  align-items: center;
+  position: relative;
+  left: 0;
   right: 0;
-  top: -40vh;
+  top: -20vh;
   bottom: 0;
-  font-size: 300%;
-  color:black;
+  width:100%;
+}
+.main3bi{
+width:100%;
+  height:auto;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.main3bii{
+  width:100%;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.main3b2{
+  color:red;
   font-family: 'Poppins', sans-serif;
-  text-align: right;
-  text-decoration-line:underline;
-  padding-top:30px;
-  padding-bottom: 30px;
+  position:relative;
+  left: 40vh;
+  right: 0;
+  top: -60vh;
+  bottom: 0;
+  width:35%;
+  font-size:200%;
+  text-align:right;
+  text-decoration: underline;
 }
 .main3b1{
 
@@ -421,21 +438,12 @@ div:after{
   padding-right: 50px;
   width:30%;
 }
-.main3b2{
-  position:relative;
-  left: -15vh;
-  right: 0;
-  top: -78vh;
-  bottom: 0;
-  width:35%;
-  color:black;
-  font-size:90%;
-}
+
 .main3c1{
   position:relative;
-  left: 0vh;
+  left: -0.3vh;
   right: 0;
-  top: 20vh;
+  top: 30vh;
   bottom: 0;
 }
 .main3c2{
@@ -597,16 +605,30 @@ div:after{
   justify-content:space-around;
   align-items: center;
   position: relative;
-  width:100%;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  font-size: 100%;
+}
+.main4f1{
+  width:100%;
+  height:auto;
+  position: relative;
+  left: 200px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.main4f2{
+  font-size: 80%;
   color:white;
   font-family: 'Poppins', sans-serif;
-  padding-left: 5px;
-  padding-right: 5px;
+  height:auto;
+  position: relative;
+  left: -260px;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 .main5{
  background-image: url("static.gif");
@@ -642,13 +664,32 @@ div:after{
   bottom: 0;
 }
 .main6{
+  background-color: black;
   display:flex;
-  justify-content:space-around;
+  justify-content:center;
   align-items: center;
   position: relative;
   left: 0;
   right: 0;
-  top: 25vh;
+  top: 20vh;
+  bottom: 0;
+  width:100%;
+}
+.main6a{
+width:100%;
+  height:auto;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.main6b{
+  width:100%;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
   bottom: 0;
 }
 .main7{
@@ -662,7 +703,7 @@ div:after{
   position: relative;
   left: 60vh;
   right: 0;
-  top: -53vh;
+  top: -56vh;
   bottom: 0;
   width:30%;
 }
@@ -710,13 +751,32 @@ color: pink;
   bottom: 0;
 }
 .main9{
+  background-color: black;
   display:flex;
-  justify-content:space-around;
+  justify-content:center;
   align-items: center;
   position: relative;
   left: 0;
   right: 0;
-  top: 12vh;
+  top: 8vh;
+  bottom: 0;
+  width:100%;
+}
+.main9a{
+width:100%;
+  height:auto;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.main9b{
+  width:100%;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
   bottom: 0;
 }
 
